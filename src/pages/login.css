@@ -1,0 +1,33 @@
+.loginForm {
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-bottom: 2rem;
+}
+.Auth-form-logo {
+  margin: auto;
+  width: 60%;
+  /* height: 50px; */
+}
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.Auth-form-title {
+  text-align: center;
+  margin: 0.8rem auto;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .loginForm{
+    flex-direction: column;
+  }
+  .loginForm div{
+    padding-left:0px ;
+    padding-right: 0px;
+  }
+  .Auth-form-content {
+    padding-left:0px ;
+    padding-right: 0px;
+}
+}
